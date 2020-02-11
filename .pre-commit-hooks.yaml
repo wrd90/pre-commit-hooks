@@ -6,8 +6,8 @@
 - id: clang-format
   name: clang-format
   entry: hooks/clang-format
-  description: Formats C/CPP code
-  files: \.(c|cc|cxx|cpp|h|hpp|hxx|m)$
+  description: Formats C/CPP or Java code
+  files: \.(c|cc|cxx|cpp|h|hpp|hxx|m|java)$
   language: script
   additional_dependencies: [clang-format]
 - id: clang-tidy
